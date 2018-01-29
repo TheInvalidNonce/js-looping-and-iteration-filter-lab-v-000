@@ -13,5 +13,5 @@ function fuzzyMatch(collection, query) {
 function matchName(collection, query) {
   return collection.filter(function (person) {
      return person['name'] === query 
-    })
+  })
 }
