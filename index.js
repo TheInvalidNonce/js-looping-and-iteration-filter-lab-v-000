@@ -1,5 +1,5 @@
-const findMatching = (query) => {
- return collection.filter((name) => 
-   name.toLowerCase() === match.toLowerCase() 
-   )
+function findMatching(collection, query) {
+ return collection.filter(function (name) {
+   return name.toLowerCase() === query.toLowerCase() 
+   })
 }
