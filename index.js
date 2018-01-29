@@ -1,5 +1,5 @@
-function findMatching(collection, match) {
- return collection.filter(function (name) { 
-   return name.toLowerCase() === match.toLowerCase() 
-   })
+const findMatching = (query) => {
+ return drivers.filter((name) => 
+   name.toLowerCase() === match.toLowerCase() 
+   )
 }
