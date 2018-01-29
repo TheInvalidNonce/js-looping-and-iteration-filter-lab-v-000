@@ -11,9 +11,8 @@ function fuzzyMatch(collection, query) {
 }
 
 function matchName(collection, query) {
-  for (const name in collection) {
-    return collection.filter(function (name) {
-      collection.name === query
+  return collection.filter(function (name) {
+    for (const name in collection) 
+      return name === query
     })
-  }
 }
