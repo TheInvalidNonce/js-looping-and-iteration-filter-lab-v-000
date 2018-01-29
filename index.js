@@ -9,3 +9,4 @@ function fuzzyMatch(collection, query) {
     return letter[0] === query[0]
   }) 
 }
+
