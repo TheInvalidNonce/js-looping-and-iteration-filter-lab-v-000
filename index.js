@@ -1,3 +1,3 @@
-function findMatching() {
+function findMatching(arr, str) {
   
 }
