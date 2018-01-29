@@ -1,3 +1,3 @@
 function findMatching(collection, match) {
- return collection.filter(function (el) { el === match.toLowerCase()})
+ return collection.filter(function (name) { name.toLowerCase() === match.toLowerCase()} )
 }
