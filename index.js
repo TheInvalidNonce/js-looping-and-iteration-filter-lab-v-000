@@ -10,3 +10,10 @@ function fuzzyMatch(collection, query) {
   }) 
 }
 
+function matchName(collection, query) {
+  for (const name in collection) {
+    return collection.filter(function (name) {
+      collection.name === query
+    })
+  }
+}
