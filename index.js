@@ -1,7 +1,3 @@
-function findMatching(arr, str) {
-  const matchingDrivers = (str) => {
-    return arr.filter((el) => 
-    el.toLowerCase()
-    )
-  }
+function findMatching(collection, match) {
+ return collection.filter(function (el) { el == match})
 }
