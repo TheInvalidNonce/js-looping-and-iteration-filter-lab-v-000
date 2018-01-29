@@ -6,6 +6,6 @@ function findMatching(collection, query) {
 
 function fuzzyMatch(collection, query) {
   return collection.filter(function (letter) {
-    return letter.toUpperCase() === query[0]
+    return letter[0] === query[0]
   }) 
 }
